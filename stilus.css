@@ -65,7 +65,7 @@ img{
   background-color: white;
   background-image: url(kepek/divhatter.png);
   background-size: cover;
-  border: 2px solid rgb(245, 245, 220) 
-  border-radius: 4vw
+  border: 2px solid rgb(245, 245, 220);
+  border-radius: 4vw;
   text-align: center;
 }
