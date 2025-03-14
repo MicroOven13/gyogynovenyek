@@ -1,12 +1,32 @@
 body {
+    max-width: 800px;
+    width: 80%;
     font-family: Arial, sans-serif;
     background-color: #f9f6e5;
-    margin: 0;
+    margin: auto;
     padding: 0;
     text-align: center;
     background-image: url(kepek/fohatter.png);
+    background-size: cover;
   }
-  
+a {
+    background-color: rgb(255, 162, 250);
+    border-color: rgb(239, 117, 255);
+    border-radius: 30px;
+    border-style: solid;
+   
+    color: black;  
+    padding: 20px;
+    box-sizing: border-box;}
+nav {
+      background: url(kepek/fohatter.png);
+      background-color: rgb(155, 215, 255);
+      background-size: 500px;
+      padding: 50px;
+      border-color: rgb(114, 180, 206);
+      border-radius: 60px;
+      border-style: solid;
+  }
 header {
     background-color: #fff;
     padding: 20px;
@@ -16,9 +36,6 @@ header {
 h1 {
     font-size: 2em;
   }
-nav {
-    margin-top: 10px;
-}
 nav button {
     background-color: pink;
     border: none;
@@ -26,4 +43,20 @@ nav button {
     margin: 5px;
     border-radius: 20px;
     cursor: pointer;
+}
+.tarolo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img{
+  width:100%;  
+  border: 10px solid RGB(50, 48, 48);
+  border-radius:15%;
+  padding: 10px;
+}
+.virag{
+  background-color: rgba(77, 166, 255, 0.5);
+}
+*{
+  box-sizing: border-box;
 }
