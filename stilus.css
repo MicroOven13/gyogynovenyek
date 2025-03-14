@@ -47,6 +47,10 @@ nav button {
 .tarolo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background-color: rgba(77, 166, 255, 0.5);
+  background-image: url(kepek/divhatter.png);
+  padding: 10px;
 }
 img{
   width:100%;  
@@ -54,10 +58,14 @@ img{
   border-radius:15%;
   padding: 10px;
 }
-.virag{
-  background-color: rgba(77, 166, 255, 0.5);
-  background-image: url(kepek/divhatter.png);
-}
 *{
   box-sizing: border-box;
+}
+#Kamilla{
+  background-color: white;
+  background-image: url(kepek/divhatter.png);
+  background-size: cover;
+  border: 2px solid rgb(245, 245, 220) 
+  border-radius: 4vw
+  text-align: center;
 }
